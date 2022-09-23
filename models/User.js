@@ -12,11 +12,11 @@ const userSchema = mongoose.Schema({
     },
     password: {
         type: String,
-        maxlength:5
+        maxlength:50
     },
     lastname: {
         type: String,
-        maxlength: 50
+        maxlength: 5
     },
     role: {
         type: Number,
